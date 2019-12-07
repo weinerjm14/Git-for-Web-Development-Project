@@ -43,21 +43,42 @@
         .human or p.human depending how how the class is written in the html.
     ******22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
-        
+        div.sidebar a {}
     24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
+        according to MDN : a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer. They tend to act as if you had applied a class to some part of your document, often helping you cut down on excess classes in your markup, and giving you more flexible, maintainable code.
+    25. What do we use the change the spacing between lines?\
+        the line-height property
     26. What do we use to change the spacing between letters?
+        letter-spacing property
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-trasform:uppercase text-transform:lowercase test-transform:capitalize
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+        div {
+            border 1px dotted black;
+        }
+    29. How do I select everything on the page?
+        with the * selector 
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+        start the commnet with /* and end it with /*
+    31. How do I find out what file I am in, when I am using the command line?
+         pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm <name of file> because there's no undo and no "are you sure" warning.
     34. Why should I use version control? 
+        it makes collaboration easier, records changes better and more effiecitenly, allows for roll backs, and has an unintended role as a type of back up system.
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+        as often as needed. commits are saved to your local drive only, until you push to github.
+    36. What is the command we would use to push our repo up to github?
+        git push -u origin firstname-lastname 
     37. Walk me through Lambda's git flow. 
+        Create YOUR OWN version of Repo —> (Fork)
+        Add your TL as a collaborator
+        Clone YOUR Repo
+        Create a branch (the one you are going to be working on)
+        Push your new branch up to GitHub and make all future pushes to that branch
+        Add your TL as a reviewer on the Pull Request
 
 Stretch Questions
 
