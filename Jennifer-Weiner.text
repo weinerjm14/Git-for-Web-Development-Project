@@ -42,6 +42,7 @@
     21. How do we select a p element with a single class of “human””?
         .human or p.human depending how how the class is written in the html.
     22. What is a parent child selector? When would this be useful? 
+        a parent child selector is a selector that only selects the elements that are a child of the specific parent element. This could be useful when you only want to select certain paragraphs, h's, etc, instead of all but code cleaner than using classes or other ways to select these elements.
     23. How do you select all links within a div with the class of sidebar?
         div.sidebar a {}
     24. What is a pseudo selector?
@@ -83,9 +84,12 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        an inline element does not start on new line visually and only take up as much space as needed. They also, generally, can only contain data and other inline elements.
     2. What happens when an element is positioned absolutely? 
+        it's position is not determined by the document but by the placement of its container or closest postiioned ancestor.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        display inline: button, lable, text area. Block: headings, nav, form
     5. In your own words, explain the box model. What is the fix for the box model?
     Stretch Git Tasks
 
